@@ -1,0 +1,28 @@
+.rodape {
+    width: 100%;
+    height: 250px;
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerRedesSociais {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.containerRedesSociais span {
+    font-size: 18px;
+}
+
+.containerMenuRapido {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

@@ -1,10 +1,18 @@
-import NavBar from "../../components/navBar/navBar"
+import Container from "../../components/secao/secao";
+import NavBar from "../../components/navBar/navBar";
+import Footer from "../../components/footer/footer";
 
 const Home = () => {
     return (
         <>
             <NavBar />
-            <h1>Home</h1>
+            <Container>
+
+                <h1>Home</h1>
+
+            </Container>
+
+            <Footer />
         </>
     )
 }

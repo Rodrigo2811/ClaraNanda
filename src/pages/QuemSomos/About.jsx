@@ -1,10 +1,17 @@
+import Container from "../../components/secao/secao";
 import NavBar from "../../components/navBar/navBar";
+import Footer from "../../components/footer/footer";
 
 const About = () => {
     return (
         <>
             <NavBar />
-            <h1>Quem Somos</h1>
+            <Container>
+                <h1>Quem Somos</h1>
+
+            </Container>
+
+            <Footer />
         </>
     )
 }

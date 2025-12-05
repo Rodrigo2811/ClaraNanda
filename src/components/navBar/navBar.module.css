@@ -5,7 +5,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: whitesmoke;
-    box-shadow: 0 0 2px 0px grey;
+    box-shadow: 0 0 4px 4px violet;
+    z-index: 1;
+    position: relative;
 
 }
 

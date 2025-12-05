@@ -1,0 +1,78 @@
+.containerPrincial {
+    background-image: url('./logo.png');
+    background-position: center;
+    background-repeat: unset;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+
+.containerLogin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.formLogin {
+    width: 350px;
+    height: 400px;
+    background-color: rgba(171, 101, 237, 0.773);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 4px rgb(81, 75, 75);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.formLogin h2 {
+    font-weight: 600;
+    font-size: 2.3rem;
+    color: #ffffff;
+}
+
+.formLogin input {
+    width: 95%;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 4px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.567);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+
+}
+
+input::placeholder {
+    color: rgb(17, 16, 16);
+}
+
+.formLogin button {
+    width: 95%;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.567);
+    color: rgb(11, 11, 11);
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+}
+
+.formLogin button:hover {
+    background-color: rgba(250, 235, 215, 0.318);
+    cursor: pointer;
+}
+
+
+
+.formLogin input:focus {
+    background-color: rgba(255, 255, 255, 0.511);
+    color: black;
+}

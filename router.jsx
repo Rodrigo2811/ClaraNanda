@@ -5,6 +5,8 @@ import Contact from './src/pages/Contact/Contact';
 import About from './src/pages/QuemSomos/About';
 import NotFound from './src/pages/NotFound/NotFound';
 import Cursos from './src/pages/Cursos/Cursos';
+import Login from './src/pages/Login/login';
+import Acount from './src/pages/Acount/Acount';
 
 
 
@@ -17,6 +19,9 @@ const Rotas = () => {
                 <Route path='/Contato' element={<Contact />} />
                 <Route path='/QuemSomos' element={<About />} />
                 <Route path='/Cursos' element={<Cursos />} />
+
+                <Route path='/Login' element={<Login />} />
+                <Route path='/Acount' element={<Acount />} />
 
 
 
