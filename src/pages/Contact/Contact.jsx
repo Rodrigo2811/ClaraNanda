@@ -27,15 +27,20 @@ const Contact = () => {
 
                 </section>
 
-                <form className={style.formContato}>
 
-                    <h2>Formulário de Contato</h2>
-                    <input type="text" placeholder="Digite seu Nome" />
-                    <input type="email" placeholder="Digite seu e-mail" />
-                    <input type="text" placeholder="Digite o Assunto" />
-                    <textarea name="" id="" placeholder="Escreva sua mensagem"></textarea>
-                    <button>Enviar</button>
-                </form>
+                <section className={style.containerForm}>
+                    <form className={style.formContato}>
+
+                        <h2>Formulário de Contato</h2>
+                        <input type="text" placeholder="Digite seu Nome" />
+                        <input type="email" placeholder="Digite seu e-mail" />
+                        <input type="text" placeholder="Digite o Assunto" />
+                        <textarea name="" id="" placeholder="Escreva sua mensagem"></textarea>
+                        <button>Enviar</button>
+                    </form>
+                </section>
+
+
 
                 <section className={style.containerRight}>
                     <h3>Horário de Atendimento</h3>

@@ -1,0 +1,12 @@
+.containerBanner {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.containerBanner img {
+    width: auto;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 2px grey;
+}
