@@ -2,12 +2,19 @@ import NavBar from "../../components/navBar/navBar";
 import Container from "../../components/secao/secao";
 import Footer from "../../components/footer/footer";
 
+import banner_contato from '../../image/banner_contato.png'
+
 import style from './contato.module.css'
 const Contact = () => {
     return (
         <>
             <NavBar />
+
+            <div className={style.containerBanner}>
+                <img src={banner_contato} alt="banner contato" />
+            </div>
             <Container>
+
                 <section className={style.secaoFormaContato}>
 
                     <h2>Entre em Contato Conosco</h2>
