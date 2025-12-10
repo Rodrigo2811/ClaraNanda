@@ -10,7 +10,7 @@
 }
 */
 
-.containerLogin {
+.containerLogout {
     top: 50%;
     left: 50%;
     position: absolute;
@@ -25,7 +25,7 @@
     box-shadow: 0 0 8px 2px grey;
 }
 
-.formLogin {
+.formLogout {
     width: 350px;
     height: 400px;
     background-color: rgba(171, 101, 237, 0.773);
@@ -39,13 +39,13 @@
 }
 
 
-.formLogin h2 {
+.formLogout h2 {
     font-weight: 600;
     font-size: 2.3rem;
     color: #ffffff;
 }
 
-.formLogin input {
+.formLogout input {
     width: 95%;
     height: 40px;
     border-radius: 4px;
@@ -62,7 +62,7 @@ input::placeholder {
     color: rgb(17, 16, 16);
 }
 
-.formLogin button {
+.formLogout button {
     width: 95%;
     height: 40px;
     font-size: 1.3rem;
@@ -73,14 +73,24 @@ input::placeholder {
     border-radius: 4px;
 }
 
-.formLogin button:hover {
+.formLogout button:hover {
     background-color: rgba(250, 235, 215, 0.318);
     cursor: pointer;
 }
 
 
 
-.formLogin input:focus {
+.formLogout input:focus {
     background-color: rgba(255, 255, 255, 0.511);
     color: black;
+}
+
+.formLogout span a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+
+.formLogout span a:hover {
+    color: rgb(247, 247, 247);
+
 }

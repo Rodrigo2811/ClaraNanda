@@ -7,6 +7,7 @@ import NotFound from './src/pages/NotFound/NotFound';
 import Cursos from './src/pages/Cursos/Cursos';
 import Login from './src/pages/Login/login';
 import Acount from './src/pages/Acount/Acount';
+import AreaDoAluno from './src/pages/AreaDoAluno/AreadoAluno';
 
 
 
@@ -23,7 +24,7 @@ const Rotas = () => {
                 <Route path='/Login' element={<Login />} />
                 <Route path='/Acount' element={<Acount />} />
 
-
+                <Route path='/AreaDoAluno' element={<AreaDoAluno />} />
 
                 <Route path='*' element={<NotFound />} />
 

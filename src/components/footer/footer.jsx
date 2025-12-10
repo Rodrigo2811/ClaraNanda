@@ -15,7 +15,7 @@ const Footer = () => {
                 <Link to={''} target='_blank'><img className='icon' src={whatsapp} alt="ClaraNanda" /></Link>
 
             </div>
-            <div>&copy;Clara Nanda, Todos os Direitos Reservados</div>
+            <div>&copy;Clara Nanda, Todos os Direitos Reservados. 2024 - 2025</div>
 
             <div className={style.containerMenuRapido}>
                 <Link to={'/'}>Home</Link>

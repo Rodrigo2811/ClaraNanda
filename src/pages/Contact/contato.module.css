@@ -59,16 +59,18 @@ textarea {
 }
 
 .formContato button {
-    height: 40px;
-    background-color: rgb(166, 94, 233);
+    background-color: rgb(168, 89, 164);
+    color: white;
     border: none;
-    border-radius: 4px;
-    transition: all .3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .formContato button:hover {
     cursor: pointer;
-    background-color: rgb(156, 65, 241);
+    background-color: rgb(140, 70, 140);
 }
 
 .containerRight {

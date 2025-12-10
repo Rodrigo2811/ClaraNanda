@@ -81,3 +81,15 @@ input::placeholder {
     background-color: rgba(255, 255, 255, 0.511);
     color: black;
 }
+
+.formLogin span a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+
+.formLogin span a:hover {
+    color: rgb(252, 252, 252);
+
+}

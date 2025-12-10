@@ -9,10 +9,10 @@ const Acount = () => {
     return (
         <>
             <div className={style.containerPrincial}>
-                <div className={style.containerLogin}>
+                <div className={style.containerLogout}>
 
 
-                    <form className={style.formLogin} >
+                    <form className={style.formLogout} >
                         <h2>Criar Conta</h2>
                         <input type="text" placeholder='Usuario' />
                         <input type="email" placeholder='e-mail' />
